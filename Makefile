@@ -46,7 +46,7 @@ test-amiga: build/amiga/test_core
 
 dist: build/amiga/AClipSync
 	rm -rf build/dist && mkdir -p build/dist/AClipSync
-	cp build/amiga/AClipSync README.md pc/aclipsync.py build/dist/AClipSync/
+	cp build/amiga/AClipSync README.md LICENSE pc/aclipsync.py build/dist/AClipSync/
 	cd build/dist && lha -aq ../AClipSync.lha AClipSync
 
 build/amiga build/host:

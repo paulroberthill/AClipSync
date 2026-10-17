@@ -104,3 +104,7 @@ The PC pings every 15 s and reconnects if nothing arrives for 45 s.
 The Amiga notices clipboard changes by polling `CBD_CURRENTREADID`, which
 costs one device call and reads no data, and recognises its own writes by
 their clip ID.
+
+## License
+
+MIT, see `LICENSE`.
